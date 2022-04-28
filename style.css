@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+table tr:nth-child(2) td:nth-child(2){
+    vertical-align:top;
+    text-align:left;
+}
+
+table{
+    border: none;
+}
+
+.label_sidenav{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+#title{
+    /* margin: auto; */
+    background-color: rgb(224, 224, 224);
+    color: #301264;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#prefix_logo{
+    padding: 3px;
+    background-color: #4A1B9D;
+    color: white;
+    border-radius: 5px;
+}
+
+#side_nav{
+    background-color: #4A1B9D;
+    color: white;
+    
+}
+
+#side_nav a{
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+#side_nav ul li{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#side_nav ul li.active{
+    background-color: orange;
+}
+
+#side_nav ul li:hover{
+    background-color: orange;
+}
+
+
+.size-col-1{
+    width: 25%;
+}
+
+.size-col-2{
+    width: 45%;
+}
+
+.size-col-3{
+    width: 75%;
+}
+
+.size-col-4{
+    width: 100%;
+}
+
+.table_bordered td {
+    padding: 10px;
+    
+}
+
+.table_bordered th {
+    padding: 10px;
+    background-color: #4A1B9D;
+    color: orange;
+    border: 3px solid;
+    border-collapse: collapse;
+}
+
+.table_bordered tr td{
+    border: 3px solid rgb(201, 201, 201);
+    border-collapse: collapse;
+}
+
+.btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn-primary{
+    color: rgb(9, 92, 187);
+}
+
+.btn-success{
+    color: rgb(9, 187, 39);
+}
+
+.btn-danger{
+    color: rgb(187, 9, 9);
+}
+
+.btn-warning{
+    color: rgb(167, 128, 3);
+}
